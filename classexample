@@ -12,7 +12,7 @@ print(t1.name)  # the value of the variable 'name' (inside __init__ method) will
 print(t1.age)  # the value of the variable 'age' (inside __init__ method) will be printed for the object t1
 `
 
-## two class example
+## two class example ##
 
 
 # ctrating an object that will store patient personal info and clinical info
@@ -42,5 +42,3 @@ p.addtestdata(c)
 
 for k in p.testreport:
     print(k.testof, k.value)
-
-
