@@ -1,4 +1,4 @@
-## single class example
+## Single class example
 ```python
 class test:  # we use the 'class' keyword to create a new class
     # __init__ method is the main menthod of the class from where the execution will be started
@@ -13,9 +13,9 @@ print(t1.name)  # the value of the variable 'name' (inside __init__ method) will
 print(t1.age)  # the value of the variable 'age' (inside __init__ method) will be printed for the object t1
 ```
 
-## two class example
+## Multi class example
 ```python
-# ctrating an object that will store patient personal info and clinical info
+# creating an object that will store patient personal info and clinical info
 class patientInfo:
     def __init__(self, name, age):  # this method will store the personal data and the provided clinical data
         self.patientname = name  # patient name
@@ -43,4 +43,3 @@ p.addtestdata(c)
 for k in p.testreport:
     print(k.testof, k.value)
 ```
-
