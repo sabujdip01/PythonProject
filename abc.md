@@ -1,10 +1,10 @@
 ## single class example
 ```python
-class test:`  # we use the 'class' keyword to create a new class*
+class test:  # we use the 'class' keyword to create a new class
     # __init__ method is the main menthod of the class from where the execution will be started
-    `def __init__(self, fname, lname, ageinyear):`  # by default the 'self' arg is passed in every method inside a class
-        `self.name = fname + " " + lname`  # creating a new variable to store the full name*
-        `self.age = ageinyear` # creating a variable to store the age*
+    def __init__(self, fname, lname, ageinyear):  # by default the 'self' arg is passed in every method inside a class
+        self.name = fname + " " + lname  # creating a new variable to store the full name*
+        self.age = ageinyear # creating a variable to store the age*
 
 
 t1 = test("Sabuj", "Mondal", 20)  # creating an object t1 of the class 'test'
