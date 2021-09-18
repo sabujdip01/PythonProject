@@ -1,9 +1,10 @@
+## single class example
 ```python
 class test:`  # we use the 'class' keyword to create a new class*
     # __init__ method is the main menthod of the class from where the execution will be started
     `def __init__(self, fname, lname, ageinyear):`  # by default the 'self' arg is passed in every method inside a class
-        `self.name = fname + " " + lname`  *# creating a new variable to store the full name*
-        `self.age = ageinyear` *# creating a variable to store the age*
+        `self.name = fname + " " + lname`  # creating a new variable to store the full name*
+        `self.age = ageinyear` # creating a variable to store the age*
 
 
 t1 = test("Sabuj", "Mondal", 20)  # creating an object t1 of the class 'test'
@@ -12,9 +13,8 @@ print(t1.name)  # the value of the variable 'name' (inside __init__ method) will
 print(t1.age)  # the value of the variable 'age' (inside __init__ method) will be printed for the object t1
 ```
 
-# two class example
-
-
+## two class example
+```python
 # ctrating an object that will store patient personal info and clinical info
 class patientInfo:
     def __init__(self, name, age):  # this method will store the personal data and the provided clinical data
@@ -42,5 +42,5 @@ p.addtestdata(c)
 
 for k in p.testreport:
     print(k.testof, k.value)
-
+```
 
